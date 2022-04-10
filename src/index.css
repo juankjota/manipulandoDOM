@@ -1,3 +1,19 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+
+.superior{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.flex-row{
+    margin: 100px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    width: 100%;  
+    border-bottom: 2px solid green;      
+}
+
+
